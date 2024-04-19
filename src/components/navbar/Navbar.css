@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.activeLink {
+  color: rgb(0, 0, 45);
+}

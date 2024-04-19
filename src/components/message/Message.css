@@ -1,0 +1,28 @@
+.message-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.message-card strong {
+  font-weight: bold;
+}
+
+.message-card p {
+  margin: 10px 0;
+}
+
+.message-card em {
+  color: #777777;
+}
+
+.images {
+  margin-right: 1rem;
+}
+
+.content {
+  width: 60%;
+}

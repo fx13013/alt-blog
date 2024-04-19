@@ -1,0 +1,55 @@
+.message-form {
+  width: 30%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-form h3 {
+  margin-top: 0;
+}
+
+.message-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-form form div {
+  margin-bottom: 15px;
+}
+
+.message-form form label {
+  font-weight: bold;
+}
+
+.message-form form input,
+.message-form form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.message-form form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.message-form form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-form form button:hover {
+  background-color: #0056b3;
+}
